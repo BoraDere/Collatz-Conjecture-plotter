@@ -16,6 +16,6 @@ Collatz Conjecture is a theory which asserts that all positive integers undergoi
 `matplotlib` is required to run this code. To install, run `pip install matplotlib` via terminal.
 
 ------------
-For testing purposes 100.000.000 is given as input. The goal was to achieve [this](https://en.wikipedia.org/wiki/Collatz_conjecture#/media/File:Collatz_Conjecture_100M.jpg "this") graph and calculate how much time would it take on my computer (it took 3200 seconds). Time testing is purely optional and can be deactivated with ease. Result:
+For testing purposes 100.000.000 is given as input. The goal was to achieve [this](https://en.wikipedia.org/wiki/Collatz_conjecture#/media/File:Collatz_Conjecture_100M.jpg "this") graph and calculate how much time would it take on my computer (it took ~3200 seconds, which is about 53 minutes). Time testing is purely optional and can be deactivated with ease. Result:
 
 [![https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-09%2020_04_03-Figure%201.png](https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-09%2020_04_03-Figure%201.png "https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-09%2020_04_03-Figure%201.png")](https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-09%2020_04_03-Figure%201.png "https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-09%2020_04_03-Figure%201.png")
