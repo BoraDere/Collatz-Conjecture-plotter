@@ -10,14 +10,20 @@ def collatz(x, ctr=0):
         return ctr
     return collatz(3*x+1, ctr=ctr+1) if x % 2 == 1 else collatz(x/2, ctr=ctr+1)
 
-bound = int(input("Please provide a boundary value: "))
 
+limit = int(input("Please provide a limit value: "))
+
+# Starting time
 st = time.time()
 
 # Plotting operations
-plt.plot([i for i in range(1, bound+1)], [collatz(i) for i in range(1, bound+1)], ",")
+plt.plot([i for i in range(1, limit+1)], [collatz(i) for i in range(1, limit+1)], ",")
 plt.xlabel("Number")
 plt.ylabel("Iterations to 1")
+
+# Ending time. Code takes the time just before the plotting because otherwise, elapsed time wouldn't be calculated
+# properly since variable "et" wouldn't have a value until user closed the matplotlib window. 
 et = time.time()
+
 print(f"Whole thing takes {et - st} seconds.")
 plt.show()
