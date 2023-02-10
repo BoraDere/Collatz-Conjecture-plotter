@@ -10,7 +10,7 @@ Collatz operations are formed by these 2 simple operations:
 Collatz Conjecture is a theory which asserts that all positive integers undergoing Collatz conjecture repetaedly will eventually lead us to the integer 1. By 2020, all integers from 1 to 2<sup>68</sup> have been tried and none of them found to be disproving.<sup>[[1]](https://link.springer.com/article/10.1007/s11227-020-03368-x)</sup>
 
 ### Definition
-[![definition](https://wikimedia.org/api/rest_v1/media/math/render/svg/ec22031bdc2a1ab2e4effe47ae75a836e7dea459 "definition")](https://wikimedia.org/api/rest_v1/media/math/render/svg/ec22031bdc2a1ab2e4effe47ae75a836e7dea459 "definition")
+[![definition](https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-02%2012_08_24-%7B_displaystyle%20f(n)%3D%7B_begin%7Bcases%7D%7B_frac%20%7Bn%7D%7B2%7D%7D%26%7B_text%7Bif%20%7D%7Dn_equiv%200%7B_pm...png "definition")](https://raw.githubusercontent.com/BoraDere/Collatz-Conjecture-plotter/main/2023-02-02%2012_08_24-%7B_displaystyle%20f(n)%3D%7B_begin%7Bcases%7D%7B_frac%20%7Bn%7D%7B2%7D%7D%26%7B_text%7Bif%20%7D%7Dn_equiv%200%7B_pm...png "definition")
 ------------
 ### Requirements
 `matplotlib` is required to run this code. To install, run `pip install matplotlib` via terminal.
