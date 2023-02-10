@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import time
-xplot = []
-yplot = []
 
 
 # This code calculates, collects and plots the amount of Collatz operations for each integer from 1 to provided number.
