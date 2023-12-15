@@ -19,8 +19,7 @@ plt.plot([i for i in range(1, limit+1)], [collatz(i) for i in range(1, limit+1)]
 plt.xlabel("Number")
 plt.ylabel("Iterations to 1")
 
-# Ending time. Code takes the time just before the plotting because otherwise, elapsed time wouldn't be calculated
-# properly since variable "et" wouldn't have a value until user closed the matplotlib window. 
+# Ending time. 
 et = time.time()
 
 print(f"Whole thing takes {et - st} seconds.")
